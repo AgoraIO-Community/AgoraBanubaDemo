@@ -107,8 +107,10 @@ iOSInjectionProject/
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-
-
+## Custom
+.DS_Store
+effects/
+BanubaSdkApp/*.framework
 
 ## Gcc Patch
 /*.gcno

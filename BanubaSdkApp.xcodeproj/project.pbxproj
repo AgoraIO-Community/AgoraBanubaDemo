@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BBD46A23A91984000CB311 /* BanubaClientToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBD46923A91984000CB311 /* BanubaClientToken.swift */; };
+		13BBD46B23A91984000CB311 /* BanubaClientToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBD46923A91984000CB311 /* BanubaClientToken.swift */; };
+		13BDAE702191E9D900DE18C1 /* VideoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5279A21021F6200862CD8 /* VideoPreviewController.swift */; };
+		13BDAE712191E9D900DE18C1 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D527982101DD1200862CD8 /* PreviewController.swift */; };
+		13BDAE722191E9D900DE18C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB759120FF4A5D0013C11F /* ViewController.swift */; };
+		13BDAE742191E9D900DE18C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB758F20FF4A5D0013C11F /* AppDelegate.swift */; };
+		13BDAE792191E9D900DE18C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759820FF4A5F0013C11F /* LaunchScreen.storyboard */; };
+		13BDAE7A2191E9D900DE18C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759620FF4A5F0013C11F /* Assets.xcassets */; };
+		13BDAE7B2191E9D900DE18C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759320FF4A5D0013C11F /* Main.storyboard */; };
+		13BDAE7C2191E9D900DE18C1 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 1384985C218090AC002C0F10 /* effects */; };
+		3DE7BDF422735F0E002B3D7D /* FrameDurationLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7BDF322735F0E002B3D7D /* FrameDurationLogger.swift */; };
+		3DE7BDF522736012002B3D7D /* FrameDurationLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7BDF322735F0E002B3D7D /* FrameDurationLogger.swift */; };
+		574C951E213034B0005526AF /* BanubaCoreSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574C951D213034B0005526AF /* BanubaCoreSandboxUITests.swift */; };
+		57AB759220FF4A5D0013C11F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB759120FF4A5D0013C11F /* ViewController.swift */; };
+		57AB759520FF4A5D0013C11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759320FF4A5D0013C11F /* Main.storyboard */; };
+		57AB759720FF4A5F0013C11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759620FF4A5F0013C11F /* Assets.xcassets */; };
+		57AB759A20FF4A5F0013C11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AB759820FF4A5F0013C11F /* LaunchScreen.storyboard */; };
+		57ACC0D921EE09D000D6505B /* (null) in Sources */ = {isa = PBXBuildFile; };
+		57ACC0DA21EE09F200D6505B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB758F20FF4A5D0013C11F /* AppDelegate.swift */; };
+		57D527992101DD1200862CD8 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D527982101DD1200862CD8 /* PreviewController.swift */; };
+		57D5279B21021F6200862CD8 /* VideoPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5279A21021F6200862CD8 /* VideoPreviewController.swift */; };
+		68A65775A2888D562B67317D /* Pods_BanubaSdkApp_BanubaSdkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC80C24A813A74568E8C30A /* Pods_BanubaSdkApp_BanubaSdkAppUITests.framework */; };
+		702BC6EB2464293D0078B613 /* EffectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BC6EA2464293D0078B613 /* EffectsService.swift */; };
+		70A919DF2465689D00383FED /* EffectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702BC6EA2464293D0078B613 /* EffectsService.swift */; };
+		7FDB2ABC24EF48E300DBFDA4 /* CustomAgoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB2ABB24EF48E300DBFDA4 /* CustomAgoraViewController.swift */; };
+		7FDB2AC424F0BC2300DBFDA4 /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB2AC224F0BC2300DBFDA4 /* UserSearchViewController.swift */; };
+		7FDB2AC524F0BC2300DBFDA4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB2AC324F0BC2300DBFDA4 /* ChatViewController.swift */; };
+		7FDB2AC724F0BC5400DBFDA4 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB2AC624F0BC5300DBFDA4 /* UserTableViewCell.swift */; };
+		7FDB2AC924FD728500DBFDA4 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 7FDB2AC824FD728300DBFDA4 /* effects */; };
+		7FEAD6CA24D4D18800D5C41C /* BanubaEffectPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6C824D4D18100D5C41C /* BanubaEffectPlayer.framework */; };
+		7FEAD6CB24D4D18800D5C41C /* BanubaEffectPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6C824D4D18100D5C41C /* BanubaEffectPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FEAD6E224D4D2B200D5C41C /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6DE24D4D28000D5C41C /* BanubaSdk.framework */; };
+		7FEAD6E324D4D2B200D5C41C /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6DE24D4D28000D5C41C /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FEAD6E724D4D79B00D5C41C /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6E624D4D79B00D5C41C /* BanubaSdk.framework */; };
+		7FEAD6E824D4D8F900D5C41C /* Pods_BanubaSdkAppSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2866CF0D9368AD899934AAC5 /* Pods_BanubaSdkAppSources.framework */; };
+		7FEAD6E924D4D8F900D5C41C /* Pods_BanubaSdkAppSources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2866CF0D9368AD899934AAC5 /* Pods_BanubaSdkAppSources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FEAD6EA24D4D9EE00D5C41C /* BanubaSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6E624D4D79B00D5C41C /* BanubaSdk.framework */; };
+		7FEAD6EB24D4D9EE00D5C41C /* BanubaSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEAD6E624D4D79B00D5C41C /* BanubaSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7FEAD71D24D879B900D5C41C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FEAD71C24D879B900D5C41C /* GoogleService-Info.plist */; };
+		7FEAD71E24D879B900D5C41C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FEAD71C24D879B900D5C41C /* GoogleService-Info.plist */; };
+		7FEAD72024D88FE700D5C41C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD71F24D88FE700D5C41C /* MainScreenViewController.swift */; };
+		7FEAD72124D88FE700D5C41C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD71F24D88FE700D5C41C /* MainScreenViewController.swift */; };
+		7FEAD72324D8920800D5C41C /* GoLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72224D8920800D5C41C /* GoLiveViewController.swift */; };
+		7FEAD72424D8920800D5C41C /* GoLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72224D8920800D5C41C /* GoLiveViewController.swift */; };
+		7FEAD72624D8A7D200D5C41C /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72524D8A7D200D5C41C /* LiveTableViewCell.swift */; };
+		7FEAD72724D8A7D200D5C41C /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72524D8A7D200D5C41C /* LiveTableViewCell.swift */; };
+		7FEAD72924D8BF5400D5C41C /* CustomVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72824D8BF5400D5C41C /* CustomVideoSource.swift */; };
+		7FEAD72A24D8BF5400D5C41C /* CustomVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAD72824D8BF5400D5C41C /* CustomVideoSource.swift */; };
+		8E065959ECA35E5F4185ABCA /* Pods_BanubaSdkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1DC513E186C867B5DDF96D /* Pods_BanubaSdkApp.framework */; };
+		9B11C58E22EF167200CEB318 /* TestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B11C58D22EF167200CEB318 /* TestHandler.swift */; };
+		9B11C58F22EF167200CEB318 /* TestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B11C58D22EF167200CEB318 /* TestHandler.swift */; };
+		9B5069062271B99600C954BA /* InteractivePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5069052271B99600C954BA /* InteractivePreviewController.swift */; };
+		9B5069072271D7B100C954BA /* InteractivePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5069052271B99600C954BA /* InteractivePreviewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574C9520213034B0005526AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57AB758420FF4A5D0013C11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AB758B20FF4A5D0013C11F;
+			remoteInfo = BanubaCoreSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13BDAE9E2191EB2F00DE18C1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7FEAD6EB24D4D9EE00D5C41C /* BanubaSdk.framework in Embed Frameworks */,
+				7FEAD6E924D4D8F900D5C41C /* Pods_BanubaSdkAppSources.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57387EA32113342300D2E358 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7FEAD6E324D4D2B200D5C41C /* BanubaSdk.framework in Embed Frameworks */,
+				7FEAD6CB24D4D18800D5C41C /* BanubaEffectPlayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1335CFC022AAADBF00B7AEC1 /* BNBSoundChanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BNBSoundChanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1384985C218090AC002C0F10 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = effects; path = ../../../../../resources/effects; sourceTree = "<group>"; };
+		13BB4E15216CD6C30011E5AC /* BanubaEffectPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BanubaEffectPlayer.framework; path = "../../../../build/bin-ios/BanubaEffectPlayer.framework"; sourceTree = "<group>"; };
+		13BBD46923A91984000CB311 /* BanubaClientToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanubaClientToken.swift; sourceTree = "<group>"; };
+		13BDAE832191E9D900DE18C1 /* BanubaSdkAppSources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanubaSdkAppSources.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141CDA7F21C01C2200E0EF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		141CDA8121C01C2200E0EF4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		141CDA8421C01C2200E0EF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		141CDA8621C01C2400E0EF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141CDA8921C01C2400E0EF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		141CDA8B21C01C2400E0EF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1DC513E186C867B5DDF96D /* Pods_BanubaSdkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanubaSdkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2866CF0D9368AD899934AAC5 /* Pods_BanubaSdkAppSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanubaSdkAppSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345A7AC7DD631D2D934FA8A2 /* Pods-BanubaSdkApp-BanubaSdkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkApp-BanubaSdkAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE7BDF322735F0E002B3D7D /* FrameDurationLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDurationLogger.swift; sourceTree = "<group>"; };
+		51593331B45935F4FA9AFE07 /* Pods-BanubaSdkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkApp.debug.xcconfig"; path = "Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		574C951B213034B0005526AF /* BanubaSdkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanubaSdkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574C951D213034B0005526AF /* BanubaCoreSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanubaCoreSandboxUITests.swift; sourceTree = "<group>"; };
+		574C951F213034B0005526AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AB758C20FF4A5D0013C11F /* BanubaSdkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanubaSdkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AB758F20FF4A5D0013C11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57AB759120FF4A5D0013C11F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57AB759420FF4A5D0013C11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57AB759620FF4A5F0013C11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57AB759920FF4A5F0013C11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57AB759B20FF4A5F0013C11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D527982101DD1200862CD8 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		57D5279A21021F6200862CD8 /* VideoPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewController.swift; sourceTree = "<group>"; };
+		5C131492CFF3A95CC108DE46 /* Pods-BanubaSdkAppSources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkAppSources.debug.xcconfig"; path = "Target Support Files/Pods-BanubaSdkAppSources/Pods-BanubaSdkAppSources.debug.xcconfig"; sourceTree = "<group>"; };
+		6779A2CC827379F76D9E442B /* Pods-BanubaSdkApp-BanubaSdkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkApp-BanubaSdkAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		702BC6EA2464293D0078B613 /* EffectsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsService.swift; sourceTree = "<group>"; };
+		7FDB2ABB24EF48E300DBFDA4 /* CustomAgoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAgoraViewController.swift; sourceTree = "<group>"; };
+		7FDB2AC224F0BC2300DBFDA4 /* UserSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		7FDB2AC324F0BC2300DBFDA4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7FDB2AC624F0BC5300DBFDA4 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		7FDB2AC824FD728300DBFDA4 /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
+		7FEAD6C824D4D18100D5C41C /* BanubaEffectPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BanubaEffectPlayer.framework; sourceTree = "<group>"; };
+		7FEAD6DE24D4D28000D5C41C /* BanubaSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BanubaSdk.framework; sourceTree = "<group>"; };
+		7FEAD6E624D4D79B00D5C41C /* BanubaSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BanubaSdk.framework; path = BanubaSdkApp/BanubaSdk.framework; sourceTree = SOURCE_ROOT; };
+		7FEAD71C24D879B900D5C41C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FEAD71F24D88FE700D5C41C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		7FEAD72224D8920800D5C41C /* GoLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoLiveViewController.swift; sourceTree = "<group>"; };
+		7FEAD72524D8A7D200D5C41C /* LiveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		7FEAD72824D8BF5400D5C41C /* CustomVideoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoSource.swift; sourceTree = "<group>"; };
+		8CC80C24A813A74568E8C30A /* Pods_BanubaSdkApp_BanubaSdkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanubaSdkApp_BanubaSdkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B11C58D22EF167200CEB318 /* TestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHandler.swift; sourceTree = "<group>"; };
+		9B5069052271B99600C954BA /* InteractivePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractivePreviewController.swift; sourceTree = "<group>"; };
+		D17B738792A6984F54F3C9A2 /* Pods-BanubaSdkAppSources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkAppSources.release.xcconfig"; path = "Target Support Files/Pods-BanubaSdkAppSources/Pods-BanubaSdkAppSources.release.xcconfig"; sourceTree = "<group>"; };
+		D1D2D3D0976ACEDECB6686EC /* Pods-BanubaSdkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaSdkApp.release.xcconfig"; path = "Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BDAE752191E9D900DE18C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEAD6EA24D4D9EE00D5C41C /* BanubaSdk.framework in Frameworks */,
+				7FEAD6E824D4D8F900D5C41C /* Pods_BanubaSdkAppSources.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574C9518213034B0005526AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A65775A2888D562B67317D /* Pods_BanubaSdkApp_BanubaSdkAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AB758920FF4A5D0013C11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEAD6E224D4D2B200D5C41C /* BanubaSdk.framework in Frameworks */,
+				7FEAD6CA24D4D18800D5C41C /* BanubaEffectPlayer.framework in Frameworks */,
+				7FEAD6E724D4D79B00D5C41C /* BanubaSdk.framework in Frameworks */,
+				8E065959ECA35E5F4185ABCA /* Pods_BanubaSdkApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141CDA7E21C01C2200E0EF4F /* OffscreenTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				141CDA7F21C01C2200E0EF4F /* AppDelegate.swift */,
+				141CDA8121C01C2200E0EF4F /* ViewController.swift */,
+				141CDA8321C01C2200E0EF4F /* Main.storyboard */,
+				141CDA8621C01C2400E0EF4F /* Assets.xcassets */,
+				141CDA8821C01C2400E0EF4F /* LaunchScreen.storyboard */,
+				141CDA8B21C01C2400E0EF4F /* Info.plist */,
+			);
+			path = OffscreenTestApp;
+			sourceTree = "<group>";
+		};
+		574C951C213034B0005526AF /* BanubaSdkAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				574C951D213034B0005526AF /* BanubaCoreSandboxUITests.swift */,
+				574C951F213034B0005526AF /* Info.plist */,
+			);
+			path = BanubaSdkAppsUITests;
+			sourceTree = "<group>";
+		};
+		57AB758320FF4A5D0013C11F = {
+			isa = PBXGroup;
+			children = (
+				7FDB2AC824FD728300DBFDA4 /* effects */,
+				57AB758E20FF4A5D0013C11F /* BanubaSdkApp */,
+				574C951C213034B0005526AF /* BanubaSdkAppsUITests */,
+				57ADA15121008228002A81D3 /* Resources */,
+				141CDA7E21C01C2200E0EF4F /* OffscreenTestApp */,
+				57AB75A820FF618A0013C11F /* Frameworks */,
+				57AB758D20FF4A5D0013C11F /* Products */,
+				76006887740BCB35B4356AF1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		57AB758D20FF4A5D0013C11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57AB758C20FF4A5D0013C11F /* BanubaSdkApp.app */,
+				574C951B213034B0005526AF /* BanubaSdkAppUITests.xctest */,
+				13BDAE832191E9D900DE18C1 /* BanubaSdkAppSources.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57AB758E20FF4A5D0013C11F /* BanubaSdkApp */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB2AC624F0BC5300DBFDA4 /* UserTableViewCell.swift */,
+				7FDB2AC324F0BC2300DBFDA4 /* ChatViewController.swift */,
+				7FDB2AC224F0BC2300DBFDA4 /* UserSearchViewController.swift */,
+				7FEAD6DE24D4D28000D5C41C /* BanubaSdk.framework */,
+				7FEAD6C824D4D18100D5C41C /* BanubaEffectPlayer.framework */,
+				57AB758F20FF4A5D0013C11F /* AppDelegate.swift */,
+				7FEAD71C24D879B900D5C41C /* GoogleService-Info.plist */,
+				57D5279A21021F6200862CD8 /* VideoPreviewController.swift */,
+				57D527982101DD1200862CD8 /* PreviewController.swift */,
+				9B5069052271B99600C954BA /* InteractivePreviewController.swift */,
+				57AB759120FF4A5D0013C11F /* ViewController.swift */,
+				57AB759320FF4A5D0013C11F /* Main.storyboard */,
+				57AB759620FF4A5F0013C11F /* Assets.xcassets */,
+				57AB759820FF4A5F0013C11F /* LaunchScreen.storyboard */,
+				57AB759B20FF4A5F0013C11F /* Info.plist */,
+				3DE7BDF322735F0E002B3D7D /* FrameDurationLogger.swift */,
+				9B11C58D22EF167200CEB318 /* TestHandler.swift */,
+				13BBD46923A91984000CB311 /* BanubaClientToken.swift */,
+				702BC6EA2464293D0078B613 /* EffectsService.swift */,
+				7FEAD71F24D88FE700D5C41C /* MainScreenViewController.swift */,
+				7FEAD72224D8920800D5C41C /* GoLiveViewController.swift */,
+				7FEAD72824D8BF5400D5C41C /* CustomVideoSource.swift */,
+				7FEAD72524D8A7D200D5C41C /* LiveTableViewCell.swift */,
+				7FDB2ABB24EF48E300DBFDA4 /* CustomAgoraViewController.swift */,
+			);
+			path = BanubaSdkApp;
+			sourceTree = "<group>";
+		};
+		57AB75A820FF618A0013C11F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEAD6E624D4D79B00D5C41C /* BanubaSdk.framework */,
+				1335CFC022AAADBF00B7AEC1 /* BNBSoundChanger.framework */,
+				13BB4E15216CD6C30011E5AC /* BanubaEffectPlayer.framework */,
+				1A1DC513E186C867B5DDF96D /* Pods_BanubaSdkApp.framework */,
+				8CC80C24A813A74568E8C30A /* Pods_BanubaSdkApp_BanubaSdkAppUITests.framework */,
+				2866CF0D9368AD899934AAC5 /* Pods_BanubaSdkAppSources.framework */,
+			);
+			name = Frameworks;
+			path = BanubaCoreSandbox/Frameworks;
+			sourceTree = "<group>";
+		};
+		57ADA15121008228002A81D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1384985C218090AC002C0F10 /* effects */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76006887740BCB35B4356AF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51593331B45935F4FA9AFE07 /* Pods-BanubaSdkApp.debug.xcconfig */,
+				D1D2D3D0976ACEDECB6686EC /* Pods-BanubaSdkApp.release.xcconfig */,
+				6779A2CC827379F76D9E442B /* Pods-BanubaSdkApp-BanubaSdkAppUITests.debug.xcconfig */,
+				345A7AC7DD631D2D934FA8A2 /* Pods-BanubaSdkApp-BanubaSdkAppUITests.release.xcconfig */,
+				5C131492CFF3A95CC108DE46 /* Pods-BanubaSdkAppSources.debug.xcconfig */,
+				D17B738792A6984F54F3C9A2 /* Pods-BanubaSdkAppSources.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BDAE6E2191E9D900DE18C1 /* BanubaSdkAppSources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BDAE802191E9D900DE18C1 /* Build configuration list for PBXNativeTarget "BanubaSdkAppSources" */;
+			buildPhases = (
+				315C1318ED729C0B4A0BC0A2 /* [CP] Check Pods Manifest.lock */,
+				13BDAE6F2191E9D900DE18C1 /* Sources */,
+				13BDAE752191E9D900DE18C1 /* Frameworks */,
+				13BDAE782191E9D900DE18C1 /* Resources */,
+				13BDAE9E2191EB2F00DE18C1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanubaSdkAppSources;
+			productName = BanubaCoreSandbox;
+			productReference = 13BDAE832191E9D900DE18C1 /* BanubaSdkAppSources.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574C951A213034B0005526AF /* BanubaSdkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574C9524213034B0005526AF /* Build configuration list for PBXNativeTarget "BanubaSdkAppUITests" */;
+			buildPhases = (
+				AD0D441B618F36419713062E /* [CP] Check Pods Manifest.lock */,
+				574C9517213034B0005526AF /* Sources */,
+				574C9518213034B0005526AF /* Frameworks */,
+				574C9519213034B0005526AF /* Resources */,
+				4EFF7E8F195DD7B7F5D9338E /* [CP] Embed Pods Frameworks */,
+				5E8B9DEA5E6C04A874B2C81D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574C9521213034B0005526AF /* PBXTargetDependency */,
+			);
+			name = BanubaSdkAppUITests;
+			productName = BanubaCoreSandboxUITests;
+			productReference = 574C951B213034B0005526AF /* BanubaSdkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		57AB758B20FF4A5D0013C11F /* BanubaSdkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AB759E20FF4A5F0013C11F /* Build configuration list for PBXNativeTarget "BanubaSdkApp" */;
+			buildPhases = (
+				2E232195C09A1BC2E3BC632D /* [CP] Check Pods Manifest.lock */,
+				57AB758820FF4A5D0013C11F /* Sources */,
+				57AB758920FF4A5D0013C11F /* Frameworks */,
+				57AB758A20FF4A5D0013C11F /* Resources */,
+				57387EA32113342300D2E358 /* Embed Frameworks */,
+				0A978D6148C0B6EC9519F9EC /* [CP] Embed Pods Frameworks */,
+				D76C19ED0B3CCD33F380D00D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanubaSdkApp;
+			productName = BanubaCoreSandbox;
+			productReference = 57AB758C20FF4A5D0013C11F /* BanubaSdkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57AB758420FF4A5D0013C11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Banuba;
+				TargetAttributes = {
+					13BDAE6E2191E9D900DE18C1 = {
+						LastSwiftMigration = 1020;
+					};
+					574C951A213034B0005526AF = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 57AB758B20FF4A5D0013C11F;
+					};
+					57AB758B20FF4A5D0013C11F = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 57AB758720FF4A5D0013C11F /* Build configuration list for PBXProject "BanubaSdkApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57AB758320FF4A5D0013C11F;
+			productRefGroup = 57AB758D20FF4A5D0013C11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AB758B20FF4A5D0013C11F /* BanubaSdkApp */,
+				13BDAE6E2191E9D900DE18C1 /* BanubaSdkAppSources */,
+				574C951A213034B0005526AF /* BanubaSdkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BDAE782191E9D900DE18C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEAD71E24D879B900D5C41C /* GoogleService-Info.plist in Resources */,
+				13BDAE792191E9D900DE18C1 /* LaunchScreen.storyboard in Resources */,
+				13BDAE7A2191E9D900DE18C1 /* Assets.xcassets in Resources */,
+				13BDAE7B2191E9D900DE18C1 /* Main.storyboard in Resources */,
+				13BDAE7C2191E9D900DE18C1 /* effects in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574C9519213034B0005526AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AB758A20FF4A5D0013C11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDB2AC924FD728500DBFDA4 /* effects in Resources */,
+				57AB759A20FF4A5F0013C11F /* LaunchScreen.storyboard in Resources */,
+				57AB759720FF4A5F0013C11F /* Assets.xcassets in Resources */,
+				7FEAD71D24D879B900D5C41C /* GoogleService-Info.plist in Resources */,
+				57AB759520FF4A5D0013C11F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A978D6148C0B6EC9519F9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E232195C09A1BC2E3BC632D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BanubaSdkApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315C1318ED729C0B4A0BC0A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BanubaSdkAppSources-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFF7E8F195DD7B7F5D9338E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8B9DEA5E6C04A874B2C81D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp-BanubaSdkAppUITests/Pods-BanubaSdkApp-BanubaSdkAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0D441B618F36419713062E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BanubaSdkApp-BanubaSdkAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76C19ED0B3CCD33F380D00D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BanubaSdkApp/Pods-BanubaSdkApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BDAE6F2191E9D900DE18C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A919DF2465689D00383FED /* EffectsService.swift in Sources */,
+				9B5069072271D7B100C954BA /* InteractivePreviewController.swift in Sources */,
+				7FEAD72424D8920800D5C41C /* GoLiveViewController.swift in Sources */,
+				7FEAD72A24D8BF5400D5C41C /* CustomVideoSource.swift in Sources */,
+				3DE7BDF522736012002B3D7D /* FrameDurationLogger.swift in Sources */,
+				9B11C58F22EF167200CEB318 /* TestHandler.swift in Sources */,
+				13BDAE702191E9D900DE18C1 /* VideoPreviewController.swift in Sources */,
+				7FEAD72724D8A7D200D5C41C /* LiveTableViewCell.swift in Sources */,
+				13BDAE712191E9D900DE18C1 /* PreviewController.swift in Sources */,
+				13BDAE722191E9D900DE18C1 /* ViewController.swift in Sources */,
+				13BDAE742191E9D900DE18C1 /* AppDelegate.swift in Sources */,
+				7FEAD72124D88FE700D5C41C /* MainScreenViewController.swift in Sources */,
+				13BBD46B23A91984000CB311 /* BanubaClientToken.swift in Sources */,
+				57ACC0D921EE09D000D6505B /* (null) in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574C9517213034B0005526AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574C951E213034B0005526AF /* BanubaCoreSandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AB758820FF4A5D0013C11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ACC0DA21EE09F200D6505B /* AppDelegate.swift in Sources */,
+				9B5069062271B99600C954BA /* InteractivePreviewController.swift in Sources */,
+				7FDB2ABC24EF48E300DBFDA4 /* CustomAgoraViewController.swift in Sources */,
+				9B11C58E22EF167200CEB318 /* TestHandler.swift in Sources */,
+				57D5279B21021F6200862CD8 /* VideoPreviewController.swift in Sources */,
+				702BC6EB2464293D0078B613 /* EffectsService.swift in Sources */,
+				7FEAD72024D88FE700D5C41C /* MainScreenViewController.swift in Sources */,
+				57D527992101DD1200862CD8 /* PreviewController.swift in Sources */,
+				13BBD46A23A91984000CB311 /* BanubaClientToken.swift in Sources */,
+				3DE7BDF422735F0E002B3D7D /* FrameDurationLogger.swift in Sources */,
+				7FDB2AC724F0BC5400DBFDA4 /* UserTableViewCell.swift in Sources */,
+				7FEAD72624D8A7D200D5C41C /* LiveTableViewCell.swift in Sources */,
+				7FDB2AC524F0BC2300DBFDA4 /* ChatViewController.swift in Sources */,
+				7FEAD72324D8920800D5C41C /* GoLiveViewController.swift in Sources */,
+				7FDB2AC424F0BC2300DBFDA4 /* UserSearchViewController.swift in Sources */,
+				7FEAD72924D8BF5400D5C41C /* CustomVideoSource.swift in Sources */,
+				57AB759220FF4A5D0013C11F /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574C9521213034B0005526AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AB758B20FF4A5D0013C11F /* BanubaSdkApp */;
+			targetProxy = 574C9520213034B0005526AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		141CDA8321C01C2200E0EF4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141CDA8421C01C2200E0EF4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		141CDA8821C01C2400E0EF4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				141CDA8921C01C2400E0EF4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		57AB759320FF4A5D0013C11F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AB759420FF4A5D0013C11F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57AB759820FF4A5F0013C11F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AB759920FF4A5F0013C11F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BDAE812191E9D900DE18C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C131492CFF3A95CC108DE46 /* Pods-BanubaSdkAppSources.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEWUB88C7M;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BanubaSdkApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../../../../build\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		13BDAE822191E9D900DE18C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17B738792A6984F54F3C9A2 /* Pods-BanubaSdkAppSources.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEWUB88C7M;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BanubaSdkApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../../../../build\"";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		574C9522213034B0005526AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6779A2CC827379F76D9E442B /* Pods-BanubaSdkApp-BanubaSdkAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEWUB88C7M;
+				INFOPLIST_FILE = BanubaSdkAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.BanubaCoreSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BanubaCoreSandbox;
+			};
+			name = Debug;
+		};
+		574C9523213034B0005526AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345A7AC7DD631D2D934FA8A2 /* Pods-BanubaSdkApp-BanubaSdkAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEWUB88C7M;
+				INFOPLIST_FILE = BanubaSdkAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.BanubaCoreSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BanubaCoreSandbox;
+			};
+			name = Release;
+		};
+		57AB759C20FF4A5F0013C11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57AB759D20FF4A5F0013C11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57AB759F20FF4A5F0013C11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51593331B45935F4FA9AFE07 /* Pods-BanubaSdkApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BN6DVT59H;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BanubaSdkApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BanubaSdkApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../../../../build\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		57AB75A020FF4A5F0013C11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D2D3D0976ACEDECB6686EC /* Pods-BanubaSdkApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BN6DVT59H;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BanubaSdkApp",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BanubaSdkApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.banuba.sdk.sample-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../../../../build\"";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BDAE802191E9D900DE18C1 /* Build configuration list for PBXNativeTarget "BanubaSdkAppSources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BDAE812191E9D900DE18C1 /* Debug */,
+				13BDAE822191E9D900DE18C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574C9524213034B0005526AF /* Build configuration list for PBXNativeTarget "BanubaSdkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574C9522213034B0005526AF /* Debug */,
+				574C9523213034B0005526AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AB758720FF4A5D0013C11F /* Build configuration list for PBXProject "BanubaSdkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AB759C20FF4A5F0013C11F /* Debug */,
+				57AB759D20FF4A5F0013C11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AB759E20FF4A5F0013C11F /* Build configuration list for PBXNativeTarget "BanubaSdkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AB759F20FF4A5F0013C11F /* Debug */,
+				57AB75A020FF4A5F0013C11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57AB758420FF4A5D0013C11F /* Project object */;
+}
