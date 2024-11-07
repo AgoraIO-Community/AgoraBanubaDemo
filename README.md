@@ -3,7 +3,7 @@
 **⚠️ This project is no longer maintained and has been archived.**  
 Please note that this repository is now in a read-only state and will not receive any further updates or support.
 
-We recommend using to the latest version of the **Agora iOS SDK**: [Learn more](https://www.agora.io/en/products/video-call/) 
+If you are interested in enabling Banuba Face Filters within your Agora iOS app, we recommend following this guide: [Enable Agora Extension: Banuba](https://docs.agora.io/en/extensions-marketplace/develop/integrate/banuba?platform=ios)
 
 For documentation and support, please visit the [Agora Documentation](https://docs.agora.io/en/).
 
